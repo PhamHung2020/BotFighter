@@ -105,12 +105,12 @@ def add_argument(argument_parser: argparse.ArgumentParser):
         help="Threshold for failed response, required by botfighter method (default: %(default)s)"
     )
 
-    average_lstm_options = argument_parser.add_argument_group("For average_lstm only")
+    average_lstm_options = argument_parser.add_argument_group("For temporal only")
     average_lstm_options.add_argument(
         "--window-time",
         default=600,
         type=float,
-        help="Window time, required by average_lstm method (default: %(default)s)"
+        help="Window time, required by temporal method (default: %(default)s)"
     )
 
 

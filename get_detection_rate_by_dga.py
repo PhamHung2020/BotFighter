@@ -140,8 +140,8 @@ def calculate(data_file_list, dga_list, best_threshold=None):
 
 
 if __name__ == "__main__":
-    result_files = [
+    result_file_list = [
         "naive_result_22_28_42_03_12_23/result_22_28_42_03_12_23.csv"
     ]
 
-    calculate(result_files, dga_helper.dga_families, 0.43)
+    calculate(result_file_list, dga_helper.dga_families, 0.43)
